@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { CssBaseline, AppBar, Toolbar, Typography } from '@mui/material'
 import DisplayQuiz from './components/DisplayQuiz'
 import './App.css'
+import { questionsData } from './questions'
 
 const App = () => {
+  const [questions, setQuestions] = useState(questionsData)
+
+
+
   return (
     <>
       <CssBaseline />
@@ -15,7 +20,7 @@ const App = () => {
         </Toolbar>
       </AppBar>
 
-      <DisplayQuiz />
+      <DisplayQuiz questions={questions} />
     </>
   )
 }

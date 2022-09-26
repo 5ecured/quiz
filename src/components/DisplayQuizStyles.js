@@ -1,38 +1,23 @@
-import { makeStyles } from "@mui/styles"
+import { makeStyles, withTheme } from "@mui/styles"
 
 export const useStyles = makeStyles(() => ({
-    // question: {
-    //     backgroundColor: 'darkblue',
-    //     color: '#ffffff',
-    //     width: '30%',
-    //     height: '100%',
-    //     // marginBottom: '15px'
-    //     alignItems: 'center',
-    //     justifyContent: 'center'
-    // },
-    // test: {
-    //     alignItems: 'center',
-    //     justifyContent: 'center',
-    // },
     main: {
-        // display: 'flex',
-        // justifyContent: 'center',
-        // alignItems: 'center',
         textAlign: 'center',
         backgroundColor: '#154c79',
         margin: 'auto',
-        marginTop: '150px',
-        width: '50%',
-        borderRadius: '25px'
+        marginTop: '50px',
+        width: '80%',
+        borderRadius: '25px',
+        padding: '20px 35px 20px 35px'
     },
     question: {
-        // margin: '25px',
         color: 'white',
-        paddingTop: '25px',
         display: 'flex',
         flexDirection: 'column',
     },
     answers: {
-        color: 'white'
+        color: 'white',
+        display: 'flex',
+        flexDirection: 'column'
     },
 }))
