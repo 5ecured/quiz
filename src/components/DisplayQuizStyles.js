@@ -5,7 +5,7 @@ export const useStyles = makeStyles(() => ({
         textAlign: 'center',
         backgroundColor: '#154c79',
         margin: 'auto',
-        marginTop: '50px',
+        marginTop: '20px',
         width: '80%',
         borderRadius: '25px',
         padding: '20px 35px 20px 35px'
@@ -16,7 +16,7 @@ export const useStyles = makeStyles(() => ({
         flexDirection: 'column',
     },
     answers: {
-        color: 'white',
+        marginTop: '-25px',
         display: 'flex',
         flexDirection: 'column'
     },
@@ -38,5 +38,19 @@ export const useStyles = makeStyles(() => ({
     reset: {
         color: 'white',
         padding: '5px 50px'
-    }
+    },
+    score: {
+        margin: '10px 0',
+        paddingTop: '5px'
+    },
+    // next: {
+    //     marginTop: '7px',
+    //     padding: '8px',
+    //     backgroundColor: '#4fbed6',
+    //     width: '50%',
+    //     margin: 'auto',
+    //     borderRadius: '25px',
+    //     marginBottom: '15px',
+    //     color: 'white'
+    // }
 }))
