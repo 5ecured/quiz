@@ -1,4 +1,4 @@
-import { makeStyles, withTheme } from "@mui/styles"
+import { makeStyles } from "@mui/styles"
 
 export const useStyles = makeStyles(() => ({
     main: {
@@ -20,4 +20,23 @@ export const useStyles = makeStyles(() => ({
         display: 'flex',
         flexDirection: 'column'
     },
+    results: {
+        textAlign: 'center',
+        backgroundColor: '#154c79',
+        margin: 'auto',
+        marginTop: '200px',
+        width: '45%',
+        height: '200px',
+        borderRadius: '25px',
+        padding: '50px',
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column'
+    },
+    reset: {
+        color: 'white',
+        padding: '5px 50px'
+    }
 }))
