@@ -17,11 +17,11 @@ const DisplayQuiz = ({ questions }) => {
         if (isCorrect) {
             setScore(score + 1)
             e.target.style.backgroundColor = 'green'
-            await delay(100)
+            await delay(1000)
             e.target.style.backgroundColor = ''
         } else {
             e.target.style.backgroundColor = 'red'
-            await delay(100)
+            await delay(1000)
             e.target.style.backgroundColor = ''
         }
         nextQuestion()
