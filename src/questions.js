@@ -18,7 +18,7 @@ export const questionsData = [
         ]
     },
     {
-        question: 'Yesterday I _____ to school',
+        question: '(PAST TENSE) Yesterday I _____ to school',
         possibleAnswers: [
             { answer: 'went', isCorrect: true },
             { answer: 'go', isCorrect: false },
@@ -27,7 +27,7 @@ export const questionsData = [
         ]
     },
     {
-        question: 'Last night I _____ not sleep, therefore I need to exercise more',
+        question: '(PAST TENSE) Last night I _____ not sleep, therefore I need to exercise more',
         possibleAnswers: [
             { answer: 'do', isCorrect: false },
             { answer: 'will', isCorrect: false },
@@ -72,7 +72,7 @@ export const questionsData = [
         ]
     },
     {
-        question: 'I like to _____ Indonesian food',
+        question: '(ACTIVE) I like to _____ Indonesian food',
         possibleAnswers: [
             { answer: 'eating', isCorrect: false },
             { answer: 'eaten', isCorrect: false },
@@ -117,7 +117,7 @@ export const questionsData = [
         ]
     },
     {
-        question: 'I _____ tried African food, to be honest I did not like it',
+        question: '(SUDAH MENG~) I _____ tried African food, to be honest I did not like it',
         possibleAnswers: [
             { answer: 'will', isCorrect: false },
             { answer: 'did', isCorrect: false },
@@ -194,7 +194,7 @@ export const questionsData = [
             { answer: 'will go/are going to', isCorrect: true },
             { answer: 'went', isCorrect: false },
             { answer: 'have gone', isCorrect: false },
-            { answer: 'are going to', isCorrect: false }
+            { answer: 'be going', isCorrect: false }
         ]
     },
     {
@@ -231,6 +231,15 @@ export const questionsData = [
             { answer: 'is', isCorrect: false },
             { answer: 'are', isCorrect: false },
             { answer: 'were', isCorrect: true }
+        ]
+    },
+    {
+        question: '(PAST ADJECTIVE) Long time ago, she _____ nice, but she is now evil',
+        possibleAnswers: [
+            { answer: 'was', isCorrect: true },
+            { answer: 'is', isCorrect: false },
+            { answer: 'are', isCorrect: false },
+            { answer: 'were', isCorrect: false }
         ]
     },
 ]
