@@ -11,7 +11,7 @@ const App = () => {
       <AppBar position='sticky'>
         <Toolbar >
           <Typography align='center' variant='h4' style={{ flexGrow: 1 }}>
-            English quiz buat mum
+            🐷 English quiz buat mum 🐷
           </Typography>
         </Toolbar>
       </AppBar>
