@@ -9,13 +9,20 @@ const App = () => {
     <>
       <CssBaseline />
       <AppBar position='sticky'>
-        <Toolbar >
+        <Toolbar>
           <Typography align='center' variant='h4' style={{ flexGrow: 1 }}>
             🐷 English quiz buat mum 🐷
           </Typography>
         </Toolbar>
       </AppBar>
 
+      <Typography textAlign='center'>
+        <span style={{ color: 'white', fontSize: '20px' }}>Remember mam</span>
+        <br />
+        <span style={{ color: 'black', fontSize: '25px' }}>ACTIVE = MENG~ (mencuci, menyetir, memukul, mengGEBUK, menjual, etc.)</span>
+        <br />
+        <span style={{ color: 'black', fontSize: '25px' }}>PASSIVE = DI~ (dipukul, diTABOK, diTEMBAK, diTIMPAH)</span>
+      </Typography>
       <DisplayQuiz questions={questionsData} />
     </>
   )
